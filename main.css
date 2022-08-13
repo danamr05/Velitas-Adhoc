@@ -1,0 +1,17 @@
+ /*
+    // # selector de id
+    // . selector de clase
+    // nombre de la etiqueta a modificar 
+    */
+    .container img {
+        max-width: 100%;
+        max-height: 100%;
+       }
+       .card {
+        height: 200px;
+        width: 200px;
+       }
+
+    li:hover {
+        cursor: pointer;
+    }
