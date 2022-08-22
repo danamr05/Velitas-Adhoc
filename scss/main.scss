@@ -1,0 +1,34 @@
+ /*
+    // # selector de id
+    // . selector de clase
+    // nombre de la etiqueta a modificar 
+    */
+
+@import "nav";
+@import "contacto";
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    height: 510px;
+    width: 25%;
+    box-shadow: 0 0 7px #111;
+    margin: 0 30px;
+}
+
+.container .card{
+    height: 200px;
+    width: 100%;
+    margin-bottom: 170px;
+}
+
+.card img top{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: block;
+}
