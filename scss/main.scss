@@ -7,28 +7,47 @@
 @import "nav";
 @import "contacto";
 
-body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .container{
-    height: 510px;
-    width: 25%;
-    box-shadow: 0 0 7px #111;
-    margin: 0 30px;
-}
-
-.container .card{
-    height: 200px;
     width: 100%;
-    margin-bottom: 170px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.card img top{
-    height: 100px;
-    width: 100px;
+.titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+.card-title {
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.card-body {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.precio {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+p{
+    text-align:justify;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin: auto;
-    display: block;
 }
