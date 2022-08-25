@@ -1,0 +1,163 @@
+ /*
+    // # selector de id
+    // . selector de clase
+    // nombre de la etiqueta a modificar 
+    */
+
+@import "nav";
+@import "contacto";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 16px;
+    justify-content: center;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+.card-title {
+    text-align: center;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.card-text {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+.precio {
+    text-align: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+p{
+    text-align:justify;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+
+.signup-form{
+    padding-top: 30px;
+
+}
+
+.pagination{
+    padding-top: 16px;
+    justify-content: center;
+}
+
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#title {
+    background-color: white;
+    grid-area: title;
+}
+
+#title >img{
+    width: 100%;
+    height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 100%;;
+}
+
+#tablero {
+    width: 600px;
+    height: 500px;
+    background-color: bisque;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-template-areas: "position1 position2 position3 position4 position5 position6" 
+    "position18 title title title title position7"
+    "position17 title title title title position8"
+    "position16 title title title title position9"
+    "position15 position14 position13 position12 position11 position10";
+}
+
+#tablero > *:nth-child(2){
+    grid-area: position1
+}
+
+#tablero > *:nth-child(3){
+    grid-area: position2
+}
+#tablero > *:nth-child(4){
+    grid-area: position3
+}
+#tablero > *:nth-child(5){
+    grid-area: position4
+}
+#tablero > *:nth-child(6){
+    grid-area: position5
+}
+#tablero > *:nth-child(7){
+    grid-area: position6
+}
+#tablero > *:nth-child(8){
+    grid-area: position7
+}
+#tablero > *:nth-child(9){
+    grid-area: position8
+}
+#tablero > *:nth-child(10){
+    grid-area: position9
+}
+#tablero > *:nth-child(11){
+    grid-area: position10
+}
+#tablero > *:nth-child(12){
+    grid-area: position11
+}
+#tablero > *:nth-child(13){
+    grid-area: position12
+}
+#tablero > *:nth-child(14){
+    grid-area: position13
+}
+#tablero > *:nth-child(15){
+    grid-area: position14
+}
+#tablero > *:nth-child(16){
+    grid-area: position15
+}
+#tablero > *:nth-child(17){
+    grid-area: position16
+}
+#tablero > *:nth-child(18){
+    grid-area: position17
+}
+#tablero > *:nth-child(19){
+    grid-area: position18
+}
